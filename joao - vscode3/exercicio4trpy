@@ -1,0 +1,12 @@
+import os
+def limpar():
+    os.system("cls")
+limpar()
+
+
+def parametro():
+    x = int(input("Digite o valor de X: "))
+    y = x + 3
+    return y
+
+print(parametro())
